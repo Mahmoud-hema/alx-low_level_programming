@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 /**
 * _isupper - uppercase letters
 * @c: char to check
@@ -11,4 +11,5 @@ if (c >= 'A' && c <= 'Z')
 return (1);
 else
 return (0);
+}
 }
