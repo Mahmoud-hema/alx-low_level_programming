@@ -19,7 +19,7 @@ va_start(strings, n);
 for (index = 0; index < n; index++)
 {
 str = va_arg(strings, char *);
-if (str == NULL)	
+if (str == NULL)
 printf("(nil)");
 else
 printf("%s", str);
