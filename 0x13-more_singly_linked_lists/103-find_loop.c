@@ -13,7 +13,7 @@ return (NULL);
 while (s && f && f->next)
 {
 f = f->next->next;
-s= s->next;
+s = s->next;
 if (f == s)
 {
 s = head;
